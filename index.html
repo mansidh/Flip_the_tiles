@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filp The Tiles</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Borel&family=Inter:wght@300&family=Lobster&family=Poppins:wght@300;400&family=Sen&family=Work+Sans&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <h1 class="headings">Flip The Tiles</h1>
+<!-- <div class="moves">Moves: <span id="movesCount">0</span></div>
+<div class="score">Score: <span id="scoreCount">0</span></div> -->
+
+    <div class="row">
+        <div data-color="one" data-image="images/one.png"
+        class="card one color-hidden" id="1" onclick="onCardClicked(event)"></div>
+        <div data-color="four" data-image="images/four.png"
+        class="card four color-hidden" id="2" onclick="onCardClicked(event)"></div>
+        <div data-color="two" data-image="images/two.png"
+        class="card two color-hidden" id="3" onclick="onCardClicked(event)"></div>
+        <div data-color="six"  data-image="images/six.png"
+        class="card six color-hidden"  
+        id="4" onclick="onCardClicked(event)"></div>
+    </div>
+    <div class="row">
+        <div data-image="images/four.png" data-color="four" id="5"
+        class="card four color-hidden"  
+        onclick="onCardClicked(event)"></div>
+        <div data-image="images/six.png" data-color="six" id="6"
+        class="card six color-hidden"  
+        onclick="onCardClicked(event)"></div>
+        <div data-image="images/one.png" data-color="one" id="7"
+        class="card one color-hidden"  
+        onclick="onCardClicked(event)"></div>
+        <div data-image="images/eight.png" data-color="eight" id="8"
+        class="card eight color-hidden"  
+        onclick="onCardClicked(event)"></div>
+    </div>
+    <div class="row">
+        <div data-image="images/seven.png" data-color="seven" id="9"
+         class="card seven color-hidden" 
+         onclick="onCardClicked(event)"></div>
+        <div data-image="images/five.png" data-color="five" id="10"
+        class="card five color-hidden" 
+         onclick="onCardClicked(event)"></div>
+        <div data-image="images/three.png" data-color="three" id="11"
+        class="card three color-hidden"
+          onclick="onCardClicked(event)"></div>
+        <div data-image="images/eight.png" data-color="eight" id="12"
+        class="card eight color-hidden"
+          onclick="onCardClicked(event)"></div>
+    </div>
+    <div class="row">
+        <div data-image="images/five.png" data-color="five" id="13"
+        class="card five color-hidden" 
+         onclick="onCardClicked(event)"></div>
+        <div data-image="images/two.png" data-color="two" id="14"
+        class="card two color-hidden" 
+         onclick="onCardClicked(event)"></div>
+        <div data-image="images/seven.png" data-color="seven" id="15"
+        class="card seven color-hidden"  
+        onclick="onCardClicked(event)"></div>
+        <div data-image="images/three.png" data-color="three" id="16"
+        class="card three color-hidden" 
+         onclick="onCardClicked(event)"></div>
+    </div>
+<div class="move-count">
+    <div class="moves">Moves: <span id="movesCount">0</span></div>
+</div>
+<div class="score-count">
+<div class="score">Score: <span id="scoreCount">0</span></div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+  
+
